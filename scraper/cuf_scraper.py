@@ -96,7 +96,7 @@ class CUFScraper:
 
         return doctors
     
-    def save_doctors_data(doctors, filename="doctors_data"):
+    def save_doctors_data(self, doctors, filename="doctors_data"):
         df = pd.DataFrame(doctors)
 
         # Simpan ke CSV
